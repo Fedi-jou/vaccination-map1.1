@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap");
+
+/* body style */
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+/* header style. position:relative fixes the position of the header wrt the map window */
+.header {
+  position: relative;
+}
+
+.map-marker {
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #1de9b6;
+  opacity: 0.5;
+}
+
+/* tooltip card style */
+.tooltip-card {
+  background-color: white;
+  padding: 2px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+/* style for every row of content inside the tooltip card  */
+.content-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/* tooltip header size  */
+.tooltip-header {
+  font-weight: 600;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.tooltip-img {
+  height: 14px;
+  margin-right: 2px;
+}
+
+.space {
+  margin-left: 5px;
+}
